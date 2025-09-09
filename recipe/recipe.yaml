@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pynose
-  version: "1.5.4"
+  version: "1.5.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pynose-${{ version }}.tar.gz
-  sha256: 97dd0b7e85cf990120a01147e83ccd960c09ffcd69f6822f18e14128c6655e67
+  sha256: 81da4e26473f98dd37497248eef4352d3221d1d56edf874a00c6bdda6daf7f49
 
 build:
   number: 0
